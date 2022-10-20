@@ -1,12 +1,25 @@
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-
 
 footer {
-    height: 300px;
+    height: 60vh;
     background-color: black;
-    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+.container {
+  width: 100%;
+  
+
+  &__contact {
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px 0;
+  }
+}
+
+.fa-brands {
+  padding: 0 10px;
 }
