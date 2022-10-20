@@ -1,0 +1,91 @@
+.nav {
+  background-color: #fff3;
+}
+
+.nav__toggle {
+  cursor: pointer;
+  margin: 0 1rem;
+  position: absolute;
+  right: 0;
+}
+
+.nav .fa-xmark {
+  color: #fff;
+  font-size: 34px;
+  display: none;
+}
+
+.nav .fa-bars {
+  color: #000;
+  font-size: 34px;
+}
+
+.nav__checkbox {
+  display: none;
+}
+
+.nav__menu {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.nav__menu li {
+  list-style-type: none;
+  display: none;
+}
+
+.nav__menu a {
+  color: #fff;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+#nav__checkbox:checked ~ ul.nav__menu li, #nav__checkbox:checked ~ label.nav__toggle .close {
+  display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .menu {
+  display: none;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("negative-space-black-forest-dawn.713739d7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+}
+
+.hero__title {
+  color: #fff;
+  text-align: center;
+  margin-top: 45%;
+  margin-left: 25%;
+  position: absolute;
+}
+
+.hero__description {
+  text-align: center;
+  color: #fff;
+  margin-top: 40%;
+  padding: 110px;
+  font-size: 24px;
+  position: absolute;
+}
+
+.icon {
+  justify-content: center;
+  margin-top: 75vh;
+  display: flex;
+}
+
+.icon .fas {
+  color: #fff;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=index.b10d73a7.css.map */

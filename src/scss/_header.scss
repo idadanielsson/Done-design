@@ -1,0 +1,62 @@
+// Navigation
+
+.nav {
+    background-color: rgba(255, 255, 255, 0.201);
+
+    &__toggle {
+        position: absolute;
+        cursor: pointer;
+        margin: 0rem 1rem;
+        right: 0;
+    }
+
+    .fa-xmark {
+        display: none;
+        color: white;
+        font-size: 34px;
+    }
+
+    .fa-bars {
+        color: black;
+        font-size: 34px;
+    }
+
+    &__checkbox {
+        display: none;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        li {
+            list-style-type: none;
+            display: none; 
+            
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.3rem;
+            
+        }
+
+    }
+
+}
+
+#nav__checkbox:checked ~ ul.nav__menu li {
+    display: block;;
+
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .close {
+    display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .menu {
+    display: none;
+}
+

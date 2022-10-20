@@ -1,0 +1,42 @@
+@use "mixins" as m;
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./../images/negative-space-black-forest-dawn.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+       &__title {
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 25%;
+        color: white;
+        text-align: center;
+       }
+
+       &__description {
+        position: absolute;
+        padding: 110px;
+        margin-top: 40%;
+        text-align: center;
+        color: white;
+        font-size: 24px;
+
+       }
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 75vh;
+
+    .fas {
+        color: white;
+        font-size: 24px;
+    }
+}
+
