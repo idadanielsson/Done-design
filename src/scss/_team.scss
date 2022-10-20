@@ -51,6 +51,10 @@
     &__quote {
         padding: 40px 10px;
         margin: 20px;
+
+        .fa-sharp {
+            font-size: 36px;
+        }
     }
 }
 
@@ -58,10 +62,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 
     .fa-sharp {
         color: black;
-        font-size: 18px;
+        font-size: 24px;
     }
 }
 
