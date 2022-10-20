@@ -16,7 +16,7 @@
 }
 
 .nav .fa-bars {
-  color: #000;
+  color: #fff;
   font-size: 34px;
 }
 
@@ -57,6 +57,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
+  justify-content: space-between;
   display: flex;
 }
 
@@ -86,6 +87,54 @@
 .icon .fas {
   color: #fff;
   font-size: 24px;
+}
+
+.team {
+  width: 100%;
+}
+
+.team__title {
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.card__title {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.card__imagecontainer {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.card__imagecontainer__image {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 5px 5px 30px 3px gray;
+}
+
+.box {
+  width: 70%;
+  background-color: #d3d3d3;
+  border-radius: 2%;
+  justify-content: center;
+  margin: 20px 0;
+  display: flex;
+}
+
+.box__quote {
+  margin: 20px;
+  padding: 40px 10px;
 }
 
 /*# sourceMappingURL=index.b10d73a7.css.map */
