@@ -5,13 +5,11 @@
 
     &__title {
         text-align: center;
-
     }
 }
 
 .cards {
     width: 100%;
-
 }
 
 
@@ -33,8 +31,7 @@
     &__title {
         display: flex;
         justify-content: center;
-        text-align: center;
-        
+        text-align: center;     
     }
 
     &__imagecontainer {
@@ -48,7 +45,6 @@
             box-shadow: 5px 5px 30px 5px gray;
         }
     }
-
 }
 
 

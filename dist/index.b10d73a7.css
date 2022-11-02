@@ -82,8 +82,12 @@ body {
 
 .nav__menu a {
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 18px;
   text-decoration: none;
+}
+
+.nav__menu a:hover {
+  text-decoration: underline;
 }
 
 #nav__checkbox:checked ~ ul.nav__menu li, #nav__checkbox:checked ~ label.nav__toggle .close {
@@ -237,6 +241,7 @@ footer {
   height: 60vh;
   background-color: #000;
   flex-direction: column;
+  padding: 40px;
   display: flex;
 }
 
@@ -244,6 +249,7 @@ footer {
   footer {
     height: 30vh;
     flex-direction: row;
+    padding: 0;
   }
 }
 
